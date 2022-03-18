@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.07)
 
-#Dev:love_hacker
+#Dev:Atif_Liza
 ##### LOGO #####
 logo = """
        \033[1;91m:▒▒▒▒███▒███▒███▒███▒▒▒▒▒▒▒▒▒▒:
@@ -63,7 +63,7 @@ logo = """
 \033[1;93m╔╗ ╔╗╔═╦╦╦═╗ ╔╗╔╦═╦╦╗
 \033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║   INDIA
 \033[1;93m╚╝ ╚═╩═╩═╩═╝═ ╚╝╚═╩═╝ 
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mBlackMafia\033[1;95m♡╰──────────•◈•──────────╯♡"""
+\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mAtifLiza\033[1;95m♡╰──────────•◈•──────────╯♡"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -113,11 +113,11 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;94m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:atif_liza
 	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;91mWrong Password"
+            print "\033[1;91mLogin Succecfull"
             os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
     else:
         print "\033[1;94mWrong Username"
